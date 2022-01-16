@@ -24,7 +24,7 @@ import path from "path"
 import BlogCard from '../src/components/BlogCard'
 import Footer from '../src/components/Footer';
 import { socialLinks } from '../src/social';
-import { externalPosts } from '../src/extposts';
+import externalPosts from '../src/extposts';
 
 
 export default function Home({ posts }) {

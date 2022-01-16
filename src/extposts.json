@@ -1,0 +1,398 @@
+[
+  {
+    "meta": {
+      "title": "Managing Django Media & Static Files on Heroku with Bucketeer",
+      "description": "This article will walk through how we correctly persist static &amp; media files for a Django...",
+      "tags": [
+        "django",
+        "heroku",
+        "aws",
+        "webdev"
+      ],
+      "date": "2022-01-13",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--hwBjyf2D--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m05f69wgl13ftj6wx8kq.jpg"
+    },
+    "slug": "https://dev.to/heroku/properly-managing-django-media-static-files-on-heroku-o2l"
+  },
+  {
+    "meta": {
+      "title": "Building Dynamic Breadcrumbs in NextJS",
+      "description": "Breadcrumbs are a website navigation tool that allows users to see their current page's \"stack\" of...",
+      "tags": [
+        "nextjs",
+        "javascript",
+        "react",
+        "tutorial"
+      ],
+      "date": "2022-01-05",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--6t0Mq8Mq--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e3ipx2a26f3mc132vq2r.jpg"
+    },
+    "slug": "https://dev.to/dan_starner/building-dynamic-breadcrumbs-in-nextjs-17oa"
+  },
+  {
+    "meta": {
+      "title": "Switching Jobs in Tech Industry: 6 Key Lessons I've Learned",
+      "description": "Switching jobs in the tech industry can be an interesting adventure, especially if you've had years...",
+      "tags": [
+        "career",
+        "productivity"
+      ],
+      "date": "2021-11-04",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--OxVN2Mau--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cldj7rruqsibvkjrumap.jpg"
+    },
+    "slug": "https://dev.to/dan_starner/learned-lessons-of-switching-jobs-552g"
+  },
+  {
+    "meta": {
+      "title": "Introspecting Python Parameter Values via Argument Binding",
+      "description": "Sometimes it is important to map function arguments with their parameter values. Python offers basic...",
+      "tags": [
+        "python",
+        "programming",
+        "django",
+        "productivity"
+      ],
+      "date": "2021-10-17",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--GZ1OIFs8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1676r6bky4it5fxdll6.png"
+    },
+    "slug": "https://dev.to/dan_starner/introspecting-python-parameter-values-via-argument-binding-1cok"
+  },
+  {
+    "meta": {
+      "title": "Maintaining Quality Documentation",
+      "description": "Communication is difficult. As remote work becomes more of a thing, as teams work across six+...",
+      "tags": [
+        "codequality",
+        "productivity",
+        "development",
+        "ux"
+      ],
+      "date": "2021-09-09",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--ZBO_L_T8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ws2ypmvwtktvmxmw3w98.png"
+    },
+    "slug": "https://dev.to/dan_starner/keeping-documentation-debt-at-bay-clients-happy-53o"
+  },
+  {
+    "meta": {
+      "title": "FIRST Gala 2019",
+      "description": "",
+      "tags": [
+        "first-robotics",
+        "new-york-city"
+      ],
+      "date": "2020-08-30",
+      "coverSrc": "https://miro.medium.com/max/1400/1*FECwS2njRAf5qwRKXDkDig.jpeg"
+    },
+    "slug": "https://medium.com/@dstarner/first-gala-2019-b02f05e4ed5a"
+  },
+  {
+    "meta": {
+      "title": "Exploring Snug Harbor",
+      "description": "",
+      "tags": [
+        "new-york-city",
+        "travel",
+        "photography"
+      ],
+      "date": "2020-08-30",
+      "coverSrc": "https://miro.medium.com/max/4000/1*m60t2-xheDbpcutjclU4lg.jpeg"
+    },
+    "slug": "https://medium.com/@dstarner/exploring-snug-harbor-60f49bc40786"
+  },
+  {
+    "meta": {
+      "title": "Updating My GitHub Profile README",
+      "description": "A few weeks ago, GitHub released full support for adding READMEs to profile pages. This allows users...",
+      "tags": [
+        "github",
+        "showdev"
+      ],
+      "date": "2020-08-05",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2hR1J9LS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kztm003o38g4q5x7vm4l.png"
+    },
+    "slug": "https://dev.to/dan_starner/updating-my-github-profile-readme-2mch"
+  },
+  {
+    "meta": {
+      "title": "What Tool Can You Never Remember or Get Good At?",
+      "description": "What program, application, or shortcut have you never been able to get behind, even though most peopl...",
+      "tags": [
+        "discuss",
+        "tools",
+        "productivity"
+      ],
+      "date": "2020-03-05",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2iTiDSCM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/e3njyysxdiv6f0h92ete.png"
+    },
+    "slug": "https://dev.to/dan_starner/what-tool-can-you-never-remember-or-get-good-at-391j"
+  },
+  {
+    "meta": {
+      "title": "The Myth of Sisyphus, Failure, & the Meaning of Imperfect Code",
+      "description": "For years as a student and into my first few years as a junior engineer, I felt dirty. Something felt...",
+      "tags": [
+        "productivity",
+        "gratitude",
+        "thoughts",
+        "codequality"
+      ],
+      "date": "2020-02-26",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--REUYplBT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/vyspgm5pv8oyj2hr5gbr.jpg"
+    },
+    "slug": "https://dev.to/dan_starner/the-myth-of-sisyphus-failure-the-meaning-of-imperfect-code-25e3"
+  },
+  {
+    "meta": {
+      "title": "Time to Show Off the Robot",
+      "description": "\n\nNow, I usually don't do something like this, but I just spent most waking hours...",
+      "tags": [
+        "robotics",
+        "frc",
+        "hobbies"
+      ],
+      "date": "2019-04-27",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://dev.to/dan_starner/time-to-show-off-the-robot-30dp"
+  },
+  {
+    "meta": {
+      "title": "Even the Big Ones Mess Up",
+      "description": "\n\nThis morning, my feed blew up due to my friends and family complaining about so...",
+      "tags": [
+        "beginners",
+        "discuss",
+        "career",
+        "productivity"
+      ],
+      "date": "2018-12-27",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--sGq82cxF--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/oewtzjztvw1vyljpvdqc.png"
+    },
+    "slug": "https://dev.to/dan_starner/even-the-big-ones-mess-up-51dp"
+  },
+  {
+    "meta": {
+      "title": "Lessons Learned: Python to JavaScript",
+      "description": "\n\nThe following is just some things that I found interesting as I dive deeper int...",
+      "tags": [
+        "python",
+        "javascript",
+        "webdev",
+        "react"
+      ],
+      "date": "2018-12-12",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--f7U6lYrt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/cz004mps4qgzwrfeurmk.jpg"
+    },
+    "slug": "https://dev.to/dan_starner/lessons-learned-python-to-javascript-4lae"
+  },
+  {
+    "meta": {
+      "title": "What's Your Shell of Choice?",
+      "description": "\n\nSo I just started using zsh shell with Oh My Zsh, and it's been a pretty awesom...",
+      "tags": [
+        "discuss",
+        "terminal",
+        "shell",
+        "bash"
+      ],
+      "date": "2018-11-29",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://dev.to/dan_starner/whats-your-shell-of-choice-3phm"
+  },
+  {
+    "meta": {
+      "title": "Is Redux Needed After Hooks?",
+      "description": "With the potential of React's Hooks becoming production ready, what does that mean for state management?",
+      "tags": [
+        "discuss",
+        "help",
+        "opinion",
+        "eli5"
+      ],
+      "date": "2018-10-30",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://dev.to/dan_starner/is-redux-needed-after-hooks-jcf"
+  },
+  {
+    "meta": {
+      "title": "Don't be a Shotgun Coder",
+      "description": "\n\n\nWhen you work, don't code like you have a shotgun. Pretend like you are a shar...",
+      "tags": [
+        "advice",
+        "productivity",
+        "design"
+      ],
+      "date": "2018-10-23",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--LVLeubPC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/3o5q6ab36178jyzkv94i.jpg"
+    },
+    "slug": "https://dev.to/dan_starner/dont-be-a-shotgun-coder-2hfp"
+  },
+  {
+    "meta": {
+      "title": "Evolution of My Personal Site",
+      "description": "\n\nI just redesigned my personal website for what seems like the 500th time. To be...",
+      "tags": [
+        "resume",
+        "productivity",
+        "writing"
+      ],
+      "date": "2018-10-22",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--qlQupJA8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/jbi5ir417f6ozrhd1tch.png"
+    },
+    "slug": "https://dev.to/dan_starner/evolution-of-my-personal-site-1849"
+  },
+  {
+    "meta": {
+      "title": "Avoid Using Trivializing Words",
+      "description": "Trivializing words are really just filler words to hide that we haven't fully thought something out.",
+      "tags": [
+        "productivity",
+        "language",
+        "mindset",
+        "social"
+      ],
+      "date": "2018-10-11",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--aeFEEipZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1539193143244-c83d9436d633"
+    },
+    "slug": "https://dev.to/dan_starner/avoid-using-trivializing-words-45"
+  },
+  {
+    "meta": {
+      "title": "Discuss: Favorite Non-Tech Hobby / Activity",
+      "description": "What's your favorite non-tech hobby that makes you happy?",
+      "tags": [
+        "discuss",
+        "hobby",
+        "activity",
+        "nontech"
+      ],
+      "date": "2018-10-02",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://dev.to/dan_starner/discuss-favorite-non-tech-hobby--activity-31hk"
+  },
+  {
+    "meta": {
+      "title": "Steps Towards Problem Solving in a Technical Interview",
+      "description": "I was never very good in an interview...until it dawned on me that I was overthinking everything and didn't go into the interview with any strategy.",
+      "tags": [
+        "internship",
+        "interviewing",
+        "learning"
+      ],
+      "date": "2018-08-24",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xyhGisFa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1497409988347-cbfaac2f0b12%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D024a5789d93faead2ece7533c7fa69b5"
+    },
+    "slug": "https://dev.to/dan_starner/steps-towards-problem-solving-in-a-technical-interview-41pb"
+  },
+  {
+    "meta": {
+      "title": "Discuss: Good NYC Tech Communities to Join?",
+      "description": "I am looking to get recommendations for tech communities to join in NYC",
+      "tags": [
+        "discuss",
+        "nyc"
+      ],
+      "date": "2018-08-21",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xf-3JiRX--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1496170657/new-york-city-skyline-manhattan-dusk-INTERESTNYC0617.jpg%3Fitok%3DRotKFKUJ"
+    },
+    "slug": "https://dev.to/dan_starner/discuss-good-nyc-tech-communities-to-join-544d"
+  },
+  {
+    "meta": {
+      "title": "Using Python's Type Annotations",
+      "description": "Python is known for being a Wild West language where anything goes. Indentation aside, code style and documentation are mostly left to the developer's opinion writing the application.",
+      "tags": [
+        "python",
+        "tutorial",
+        "beginners",
+        "learning"
+      ],
+      "date": "2018-08-18",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--pSUXFQLk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1515879218367-8466d910aaa4%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D8bafd14605a87addc5db927cf3dc0587"
+    },
+    "slug": "https://dev.to/dan_starner/using-pythons-type-annotations-4cfe"
+  },
+  {
+    "meta": {
+      "title": "Battling Imposter Syndrome",
+      "description": "",
+      "tags": [
+        "imposter-syndrome",
+        "personal-growth",
+        "professional-development"
+      ],
+      "date": "2018-03-27",
+      "coverSrc": "https://miro.medium.com/max/1400/1*aE8oLp9EArk2natt7gZJmg.jpeg"
+    },
+    "slug": "https://medium.com/@dstarner/battling-imposter-syndrome-4650a73776cb"
+  },
+  {
+    "meta": {
+      "title": "A Challenge to Yourself",
+      "description": "",
+      "tags": [
+        "life-lessons",
+        "challenge",
+        "personal-growth",
+        "joy",
+        "life"
+      ],
+      "date": "2018-03-13",
+      "coverSrc": "https://miro.medium.com/max/1400/1*QhNOe6vdMkJWQ4J57DLPkA.jpeg"
+    },
+    "slug": "https://medium.com/@dstarner/a-challenge-to-yourself-2e4b07f9d60a"
+  },
+  {
+    "meta": {
+      "title": "Why Do You Need a Blog?",
+      "description": "",
+      "tags": [
+        "imposter-syndrome",
+        "blogging",
+        "communication"
+      ],
+      "date": "2018-02-15",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://medium.com/@dstarner/why-do-you-need-a-blog-8d93f94e1e3e"
+  },
+  {
+    "meta": {
+      "title": "Why Do You Need a Blog?",
+      "description": "Why do people write blogs? What's the big deal with them? I answer these questions and more!",
+      "tags": [
+        "blogging"
+      ],
+      "date": "2017-12-30",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://dev.to/dan_starner/why-do-you-need-a-blog-4bc0"
+  },
+  {
+    "meta": {
+      "title": "Why I Trust Slackware as My Linux Distro",
+      "description": "My thoughts and experiences on Slackware Linux",
+      "tags": [
+        "slackwarelinux"
+      ],
+      "date": "2017-10-27",
+      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--zcN9ZTtT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/8l4abtuq35tjjuc8h77v.jpg"
+    },
+    "slug": "https://dev.to/dstarner/why-i-trust-slackware-as-my-linux-distro-bg7"
+  },
+  {
+    "meta": {
+      "title": "Hi, I'm Daniel Starner",
+      "description": "My introduction post",
+      "tags": [
+        "introductions"
+      ],
+      "date": "2017-02-23",
+      "coverSrc": "img/default-blog-image.webp"
+    },
+    "slug": "https://dev.to/dan_starner/hi-im-daniel-starner"
+  }
+]
