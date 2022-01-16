@@ -5,6 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
+import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 export default function BlogCard({ post, href }) {
@@ -17,9 +18,9 @@ export default function BlogCard({ post, href }) {
         alt={post.title}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5">
+        <Link gutterBottom href={href} underline="hover" variant="h5">
           {post.title}
-        </Typography>
+        </Link>
         <Typography variant="body2" color="text.secondary">
           {post.description}
         </Typography>

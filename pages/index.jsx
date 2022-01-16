@@ -80,7 +80,7 @@ export default function Home({ posts }) {
           </Typography>
         </Box>
       </Box>
-      <Divider sx={{ width: "60%", display: "block", margin: "16px auto" }} />
+      <Divider sx={{ width: "80%", display: "block", margin: "16px auto" }} />
       <Box my={2}>
         <Grid container spacing={4}>
           <Grid xs={12} sm={6} item>
@@ -159,7 +159,7 @@ export default function Home({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const postsDirectory = path.join(process.cwd(), 'pages/posts')
+  const postsDirectory = path.join(process.cwd(), 'src/posts');
   const files = fs.readdirSync(postsDirectory);
 
   const posts = files.map(filename => {
