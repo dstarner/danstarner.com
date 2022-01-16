@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography'
 
 import fs from 'fs'
 import matter from 'gray-matter'
+import { DateTime } from 'luxon';
 import Head from 'next/head'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
@@ -25,7 +26,8 @@ const extLinkName = {
 }
 
 
-const PostPage = ({ frontMatter: { title, description, coverSrc, tags, extLinks={}, }, extLinkMap, mdxSource }) => {
+const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, extLinks={}, }, extLinkMap, mdxSource }) => {
+  const dateStr = DateTime.fromISO(date).toLocaleString({ month: 'long', day: 'numeric', year: 'numeric' });
   return (
     <Container maxWidth="md">
       <Head>
@@ -45,6 +47,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, extLinks=
           sx={{ borderBottomLeftRadius: 20, borderBottomRightRadius: 20, boxShadow: 3 }}
 
         />
+        <Typography variant="overline" sx={{ fontSize: 16 }} component='div' textAlign="center">{dateStr}</Typography>
         <Typography variant='h1'>{title}</Typography>
         <Box my={1}>
             {tags.map(tag => (

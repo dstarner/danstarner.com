@@ -76,7 +76,18 @@ export default function Home({ posts }) {
           <Avatar src={'/img/profile.webp'} sx={{ width: 150, height: 150, mr: 2, border: 2, borderColor: 'primary.main' }}>DS</Avatar>
           <Typography variant='h1' textAlign='center'>
             Hi, I&apos;m <Typography component='span' variant='inherit' color='primary'>Dan</Typography>
-            <Typography component='span' display="block" textAlign={isMobile ? "center" : "left"} variant="h2">💻 🚴🏼‍♂️ 🏎</Typography>
+            <Box sx={{ display: 'flex', justifyContent: 'space-around' }}>
+              <Tooltip title="I code">
+                <div>💻</div>
+              </Tooltip>
+              <Tooltip title="I play iRacing">
+                <div>🏎</div>
+              </Tooltip>
+              <Tooltip title="I bike">
+                <div>🚴🏼‍♂️</div>
+              </Tooltip>
+                
+            </Box>
           </Typography>
         </Box>
       </Box>
