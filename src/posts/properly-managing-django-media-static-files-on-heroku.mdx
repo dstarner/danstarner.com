@@ -15,9 +15,7 @@ extLinks:
 
 This article will walk through how we correctly persist static & media files for a Django application hosted on Heroku. As a bonus, it will also explain how we can satisfy the additional constraint of specifying private versus public media files based on model definitions.
 
-Before I begin, this post extends from [this TestDriven.io article](https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/) that was written awhile back. I frequent it often when setting up my projects, and have built some extra functionality on top of it over the years. I decided to create a more focused post that references Heroku & Bucketeer with these extra features after helping an individual on StackOverflow.
-
-{% stackoverflow 70483913 %}
+Before I begin, this post extends from [this TestDriven.io article](https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/) that was written awhile back. I frequent it often when setting up my projects, and have built some extra functionality on top of it over the years. I decided to create a more focused post that references Heroku & Bucketeer with these extra features after [helping an individual on StackOverflow](https://stackoverflow.com/questions/70481782/how-to-add-image-for-image-field-for-a-model-instance-in-django-admin-panel-on-h/70483913#70483913).
 
 So without further ado, let's first dive into what static & media files are and how Heroku dynos manage their filesystem? 
 

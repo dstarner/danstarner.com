@@ -8,6 +8,14 @@ import Chip from '@mui/material/Chip';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
+
+const extLinkName = {
+  dev: 'Dev.to',
+  hackernoon: 'Hackernoon',
+  medium: 'Medium',
+}
+
+
 export default function BlogCard({ post, href }) {
   return (
     <Card>
@@ -30,10 +38,14 @@ export default function BlogCard({ post, href }) {
             ))}
         </Box>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+      {post.extLinks && (
+        <CardActions>
+          {['dev', 'hackernoon', 'medium'].filter(s => Boolean(post.extLinks[s])).map(s => (
+            <Button component='a' key={s} href={post.extLinks[s]} size="small">{extLinkName[s]}</Button>
+
+          ))}
+        </CardActions>
+      )}
     </Card>
   );
 }

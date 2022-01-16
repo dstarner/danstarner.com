@@ -19,12 +19,14 @@
     "@mui/material": "^5.2.8",
     "@next/mdx": "^12.0.8",
     "luxon": "^2.3.0",
+    "mdx-embed": "^0.0.22",
     "moment": "^2.29.1",
     "next": "12.0.8",
     "next-mdx-remote": "^3.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-syntax-highlighter": "^15.4.5"
+    "react-syntax-highlighter": "^15.4.5",
+    "refractor": "^4.4.0"
   },
   "devDependencies": {
     "eslint": "8.6.0",

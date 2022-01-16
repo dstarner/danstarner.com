@@ -12,6 +12,7 @@ import Typography from '@mui/material/Typography'
 import fs from 'fs'
 import matter from 'gray-matter'
 import { DateTime } from 'luxon';
+import { Tweet, Gist, Instagram, Strava, Twitch } from 'mdx-embed';
 import Head from 'next/head'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
@@ -75,12 +76,18 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         h6: (props) => <Typography variant='h6' sx={{ mt: 3.5, fontWeight: 400 }} {...props} />,
         hr: () => <Divider sx={{ width: '50%', display: "block", margin: "24px auto" }} />,
         // code: (props) => <Typography variant='overline' component='code' {...props} />,
-        pre: (props) => console.log(props) || <SyntaxHighlighter>{props.children.props.children.trim()}</SyntaxHighlighter> || (
+        pre: (props) => <SyntaxHighlighter>{props.children.props.children.trim()}</SyntaxHighlighter> || (
           <Box sx={{ background: grey[200], width: '100%', overflowX: 'scroll' }}>
             <Typography variant='inherit' component='pre' sx={{ p: 2 }} {...props} />
           </Box>
         ),
-        SyntaxHighlighter
+        // Custom components
+        Gist,
+        Instagram,
+        Strava,
+        SyntaxHighlighter,
+        Tweet,
+        Twitch,
       }} />
     </Container>
   )
