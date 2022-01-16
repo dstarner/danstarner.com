@@ -26,7 +26,7 @@ export default function BlogCard({ post, href }) {
         </Typography>
         <Box mt={1}>
             {post.tags.map(tag => (
-              <Chip label={`#${tag}`} key={tag} size="small" sx={{ mr: .5 }} />
+              <Chip label={`#${tag}`} component='a' href={`/posts/tags/${tag}`} clickable key={tag} size="small" sx={{ mr: .5 }} />
             ))}
         </Box>
       </CardContent>

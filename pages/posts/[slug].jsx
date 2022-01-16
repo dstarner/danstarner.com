@@ -1,4 +1,6 @@
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import Box from '@mui/material/Box'
+import Button from '@mui/material/Button';
 import { grey } from '@mui/material/colors';
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
@@ -16,13 +18,25 @@ import path from 'path'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 
 
-const PostPage = ({ frontMatter: { title, description, coverSrc, tags }, mdxSource }) => {
+const extLinkName = {
+  dev: 'Dev.to',
+  hackernoon: 'Hackernoon',
+  medium: 'Medium',
+}
+
+
+const PostPage = ({ frontMatter: { title, description, coverSrc, tags, extLinks={}, }, extLinkMap, mdxSource }) => {
   return (
     <Container maxWidth="md">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="twitter:title" key="twitter:title" content={title} />
+        <meta name="twitter:description" key="twitter:description" content={description} />
+        <meta property="og:title" key="og:title" content={title} />
+        <meta property="og:description" key="og:description" content={description} />
       </Head>
       <Box id="header">
         <CardMedia
@@ -32,10 +46,19 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags }, mdxSour
 
         />
         <Typography variant='h1'>{title}</Typography>
-        <Box mt={1}>
+        <Box my={1}>
             {tags.map(tag => (
-              <Chip label={`#${tag}`} key={tag} size="small" sx={{ mr: .5 }} />
+              <Chip component='a' href={`/posts/tags/${tag}`} clickable label={`#${tag}`} key={tag} size="small" sx={{ mr: .5 }} />
             ))}
+            {['dev', 'hackernoon', 'medium'].filter(s => Boolean(extLinks[s])).map(s => (
+              <Chip 
+                component='a' href={extLinks[s]} clickable label={`Read on ${extLinkMap[s]}`}
+                key={s} size="small" sx={{ mr: .5 }} variant='outlined'
+              />
+            ))}
+        </Box>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <Button component='a' href='/' startIcon={<ChevronLeftIcon />}>Back Home</Button>
         </Box>
       </Box>
       <Divider sx={{ width: "80%", display: "block", margin: "2rem auto" }} />
@@ -84,7 +107,8 @@ export const getStaticProps = async ({ params: { slug } }) => {
     props: {
       frontMatter,
       slug,
-      mdxSource
+      mdxSource,
+      extLinkMap: extLinkName,
     }
   }
 }
