@@ -26,7 +26,7 @@ export default function BlogCard({ post, href }) {
         alt={post.title}
       />
       <CardContent>
-        <Link gutterBottom href={href} underline="hover" variant="h5">
+        <Link gutterBottom href={href} underline="hover" color="inherit" variant="h5">
           {post.title}
         </Link>
         <Typography variant="body2" color="text.secondary">
