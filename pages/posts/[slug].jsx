@@ -18,6 +18,8 @@ import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import path from 'path'
 import SyntaxHighlighter from 'react-syntax-highlighter'
+import Footer from '../../src/components/Footer';
+import { socialLinks } from '../../src/social';
 
 
 const extLinkName = {
@@ -89,6 +91,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         Tweet,
         Twitch,
       }} />
+      <Footer links={socialLinks} />
     </Container>
   )
 }

@@ -1,4 +1,3 @@
-import { faDev, faGithub, faLinkedin, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ArticleIcon from '@mui/icons-material/Article';
 import MailIcon from '@mui/icons-material/Mail';
@@ -23,40 +22,8 @@ import matter from 'gray-matter'
 import Head from 'next/head'
 import path from "path"
 import BlogCard from '../src/components/BlogCard'
-
-
-const links = [
-  {
-    icon: faDev,
-    title: 'Dev Profile',
-    href: 'https://dev.to/dan_starner',
-    username: '@dan_starner',
-  },
-  {
-    icon: faGithub,
-    title: 'GitHub',
-    href: 'https://github.com/dstarner/',
-    username: '@dstarner',
-  },
-  {
-    icon: faLinkedin,
-    title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/danstarner/',
-    username: 'danstarner',
-  },
-  {
-    icon: faStackOverflow,
-    title: 'Stack Overflow',
-    href: 'https://stackoverflow.com/users/17758344/dan-starner',
-    username: '@dan_starner'
-  },
-  {
-    icon: faTwitter,
-    title: 'Twitter',
-    href: 'https://twitter.com/dan_starner/',
-    username: '@dan_starner'
-  },
-];
+import Footer from '../src/components/Footer';
+import { socialLinks } from '../src/social';
 
 
 export default function Home({ posts }) {
@@ -118,7 +85,7 @@ export default function Home({ posts }) {
           </Grid>
           <Grid xs={12} sm={6} item>
             <List disablePadding>
-              {links.map((link, idx) => (
+              {socialLinks.map((link, idx) => (
                 <ListItem disablePadding key={idx} sx={{
                   py: 1, borderBottom: 1, borderBottomColor: 'common.black',
                   '&:last-child': { borderBottom: 0 }
@@ -148,23 +115,7 @@ export default function Home({ posts }) {
         </Grid>
       </Box>
 
-
-      <Box
-        component='footer' sx={{
-          justifyContent: 'center', alignItems: 'center',
-          display: 'flex', flex: 1, my: 2, py: 2, paddingX: 2,
-          borderTop: "1px solid #eaeaea",
-        }}
-      >
-        {links.map((link, idx) => (
-          <Tooltip title={link.title} key={idx}>
-            <IconButton component='a' href={link.href} sx={{ mr: .5 }}>
-              <FontAwesomeIcon icon={link.icon} />
-            </IconButton>
-          </Tooltip>
-        ))}
-        
-      </Box>
+      <Footer links={socialLinks} />
     </Container>
   )
 }
