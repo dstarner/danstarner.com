@@ -16,7 +16,8 @@ const extLinkName = {
 }
 
 
-export default function BlogCard({ post, href }) {
+export default function BlogCard({ post, slug }) {
+  const href = slug.startsWith('/') ? `/posts/${slug}` : slug;
   return (
     <Card>
       <CardMedia
@@ -34,7 +35,10 @@ export default function BlogCard({ post, href }) {
         </Typography>
         <Box mt={1}>
             {post.tags.map(tag => (
-              <Chip label={`#${tag}`} component='a' href={`/posts/tags/${tag}`} clickable key={tag} size="small" sx={{ mr: .5 }} />
+              <Chip 
+                label={`#${tag}`} component='a' href={`/posts/tags/${tag}`}
+                clickable key={tag} size="small" sx={{ mr: .5 }}
+              />
             ))}
         </Box>
       </CardContent>

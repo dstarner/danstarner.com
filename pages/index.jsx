@@ -18,11 +18,13 @@ import Typography from '@mui/material/Typography'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import fs from 'fs'
 import matter from 'gray-matter'
+import { DateTime } from 'luxon';
 import Head from 'next/head'
 import path from "path"
 import BlogCard from '../src/components/BlogCard'
 import Footer from '../src/components/Footer';
 import { socialLinks } from '../src/social';
+import { externalPosts } from '../src/extposts';
 
 
 export default function Home({ posts }) {
@@ -90,7 +92,7 @@ export default function Home({ posts }) {
                   '&:last-child': { borderBottom: 0 }
                 }}>
                   <ListItemIcon sx={{ minWidth: 30 }}>
-                    <FontAwesomeIcon width="1rem" icon={link.icon} />
+                    <FontAwesomeIcon size='sm' icon={link.icon} />
                   </ListItemIcon>
                   <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'space-between' }}>
                     <Typography sx={{ fontWeight: 500 }}>{link.title}</Typography>
@@ -108,7 +110,7 @@ export default function Home({ posts }) {
         <Grid container spacing={2}>
           {posts.map(({ meta, slug }, idx) => (
             <Grid xs={12} sm={6} key={idx} item>
-              <BlogCard post={meta} href={`/posts/${slug}`} />
+              <BlogCard post={meta} slug={slug} />
             </Grid>
           ))}
         </Grid>
@@ -123,7 +125,7 @@ export const getStaticProps = async () => {
   const postsDirectory = path.join(process.cwd(), 'src/posts');
   const files = fs.readdirSync(postsDirectory);
 
-  const posts = files.map(filename => {
+  const internalPosts = files.map(filename => {
     const markdownWithMeta = fs.readFileSync(path.join(postsDirectory, filename), 'utf-8')
     const { data: meta } = matter(markdownWithMeta)
     return {
@@ -131,6 +133,12 @@ export const getStaticProps = async () => {
       slug: filename.split('.')[0]
     }
   })
+
+  const posts = [
+    ...internalPosts,
+    ...externalPosts,
+  ].sort((a, b) => DateTime.fromISO(a.meta.date).toMillis() - DateTime.fromISO(b.meta.date).toMillis()).reverse();
+
   return {
     props: {
       posts,
