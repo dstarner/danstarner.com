@@ -6,13 +6,29 @@ import Grid from '@mui/material/Grid'
 import List from '@mui/material/List'
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import BlogCard from './BlogCard';
 import BlogListItem from './BlogListItem';
 
+
+const localStorageKey = "blog-list-view";
+
+
 function BlogList({ posts, title }) {
-  const [viewType, setViewType] = useState("comfort");
+  const [viewType, setRawViewType] = useState("comfort");
+  function setViewType(_, value) {
+    const newValue = value || viewType;
+    window.localStorage.setItem(localStorageKey, newValue);
+    setRawViewType(newValue);
+  }
+
+  useEffect(function() {
+    const value = window.localStorage.getItem(localStorageKey);
+    if (value) {
+      setRawViewType(value);
+    }
+  }, [])
 
   return (
     <Box sx={{ my: 3 }}>
@@ -20,7 +36,7 @@ function BlogList({ posts, title }) {
         title={title} titleTypographyProps={{ variant: 'h4' }} sx={{ py: 1, px: 0 }}
         action={(
           <ToggleButtonGroup
-            value={viewType} onChange={(_, v) => setViewType(v || viewType)}
+            value={viewType} onChange={setViewType}
             exclusive size="small" aria-label='determine blog list layout'
           >
             <ToggleButton value="dense" aria-label="dense">
