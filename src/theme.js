@@ -9,10 +9,7 @@ import {
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#089cd2',
-        },
-        error: {
-            main: red.A400,
+            main: '#007dbb',
         },
     },
     typography: {
