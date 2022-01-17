@@ -35,7 +35,6 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <link rel="icon" href="/favicon.ico" />
 
         <meta name="twitter:title" key="twitter:title" content={title} />
         <meta name="twitter:description" key="twitter:description" content={description} />

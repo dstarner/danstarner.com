@@ -32,7 +32,6 @@ export default function Home({ posts }) {
       <Head>
         <title>Dan Starner</title>
         <meta name="description" content="My Head is in the Clouds 24/7" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Box id="header" mt={10}>
