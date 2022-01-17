@@ -94,7 +94,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
 export const getStaticPaths = async () => {
   const postsDirectory = path.join(process.cwd(), 'src/posts')
   const files = fs.readdirSync(postsDirectory)
-  const paths = files.map(filename => ({
+  const paths = files.filter(f => f.endsWith('.mdx')).map(filename => ({
     params: {
       slug: filename.replace('.mdx', '')
     }
