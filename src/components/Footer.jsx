@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Box from '@mui/material/Box'
 import IconButton from '@mui/material/IconButton'
+import Link from '@mui/material/Link'
 import Tooltip from '@mui/material/Tooltip'
 import Typography from '@mui/material/Typography';
 
@@ -23,7 +24,9 @@ function Footer({ links }) {
                     </Tooltip>
                 ))}
             </Box>
-            <Typography textAlign="center" component='p' variant="caption">Made by Dan</Typography>
+            <Typography textAlign="center" component='p' variant="caption">
+                Made by Dan using <Link href='https://mui.com/'>MUI</Link> and <Link href='https://nextjs.org/'>Nextjs</Link>
+            </Typography>
         </Box>
     );
 }
