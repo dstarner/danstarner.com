@@ -3,20 +3,19 @@ import Box from '@mui/material/Box'
 import Button from '@mui/material/Button';
 import Container from "@mui/material/Container";
 import Divider from '@mui/material/Divider'
-import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import Head from 'next/head'
-import BlogCard from '../../../src/components/BlogCard';
-import Footer from "../../../src/components/Footer";
-import { socialLinks } from "../../../src/social";
-import posts from '../../../src/posts';
+import BlogList from 'src/components/BlogList';
+import Footer from "src/components/Footer";
+import { socialLinks } from "src/social";
+import posts from 'src/posts';
 
 
 function TagPage({ tag, posts }) {
   const title = tag;
   const description = `Posts about ${tag}`;
   return (
-    <Container>
+    <Container maxWidth="md">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -35,15 +34,7 @@ function TagPage({ tag, posts }) {
         </Box>
       </Box>
       <Divider sx={{ width: "80%", display: "block", margin: "2rem auto" }} />
-      <Box sx={{ my: 2 }}>
-        <Grid container spacing={2}>
-          {posts.map(({ meta, slug }, idx) => (
-            <Grid xs={12} sm={6} key={idx} item>
-              <BlogCard post={meta} slug={slug} />
-            </Grid>
-          ))}
-        </Grid>
-      </Box>
+      <BlogList title="Associated Posts" posts={posts} />
       <Footer links={socialLinks} />
     </Container>
   );

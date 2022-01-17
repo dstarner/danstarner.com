@@ -17,10 +17,10 @@ import { useTheme } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import Head from 'next/head'
-import BlogCard from '../src/components/BlogCard'
-import Footer from '../src/components/Footer';
-import { socialLinks } from '../src/social';
-import posts from '../src/posts';
+import BlogList from 'src/components/BlogList'
+import Footer from 'src/components/Footer';
+import { socialLinks } from 'src/social';
+import posts from 'src/posts';
 
 
 export default function Home({ posts }) {
@@ -101,16 +101,7 @@ export default function Home({ posts }) {
         </Grid>
       </Box>
 
-      <Box sx={{ my: 2 }}>
-        <Typography variant="h4" mb={1}>My Writing</Typography>
-        <Grid container spacing={2}>
-          {posts.map(({ meta, slug }, idx) => (
-            <Grid xs={12} sm={6} key={idx} item>
-              <BlogCard post={meta} slug={slug} />
-            </Grid>
-          ))}
-        </Grid>
-      </Box>
+      <BlogList title="My Writing" posts={posts} />
 
       <Footer links={socialLinks} />
     </Container>
