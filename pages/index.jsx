@@ -37,7 +37,7 @@ export default function Home({ posts }) {
 
       <Box id="header" mt={10}>
         <Box id="title" sx={{ display: "flex", justifyContent: "center", alignItems: isMobile ? "center" : "flex-end", flexDirection: isMobile ? "column" : "row" }}>
-          <Avatar src={'/img/profile.webp'} sx={{ width: 150, height: 150, mr: 2, border: 2, borderColor: 'primary.main' }}>DS</Avatar>
+          <Avatar src='/img/profile.webp' alt='Dan Starner' sx={{ width: 150, height: 150, mr: 2, border: 2, borderColor: 'primary.main' }}>DS</Avatar>
           <Typography variant='h1' textAlign='center'>
             Hi, I&apos;m <Typography component='span' variant='inherit' color='primary'>Dan</Typography>
             <Box sx={{ display: 'flex', justifyContent: 'space-around' }}>
