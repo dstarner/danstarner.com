@@ -78,11 +78,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         h6: (props) => <Typography variant='h6' sx={{ mt: 3.5, fontWeight: 400 }} {...props} />,
         hr: () => <Divider sx={{ width: '50%', display: "block", margin: "24px auto" }} />,
         // code: (props) => <Typography variant='overline' component='code' {...props} />,
-        pre: (props) => <SyntaxHighlighter>{props.children.props.children.trim()}</SyntaxHighlighter> || (
-          <Box sx={{ background: grey[200], width: '100%', overflowX: 'scroll' }}>
-            <Typography variant='inherit' component='pre' sx={{ p: 2 }} {...props} />
-          </Box>
-        ),
+        pre: (props) => <SyntaxHighlighter>{props.children.props.children.trim()}</SyntaxHighlighter>,
         // Custom components
         Gist,
         Instagram,
