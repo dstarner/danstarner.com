@@ -1,0 +1,9 @@
+{
+    "theme_color": "#007dbb",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Dan Starner",
+    "short_name": "Dan Starner"
+}
