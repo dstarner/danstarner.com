@@ -16,15 +16,11 @@ import Grid from '@mui/material/Grid'
 import { useTheme } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
 import useMediaQuery from '@mui/material/useMediaQuery'
-import fs from 'fs'
-import matter from 'gray-matter'
-import { DateTime } from 'luxon';
 import Head from 'next/head'
-import path from "path"
 import BlogCard from '../src/components/BlogCard'
 import Footer from '../src/components/Footer';
 import { socialLinks } from '../src/social';
-import externalPosts from '../src/extposts';
+import posts from '../src/posts';
 
 
 export default function Home({ posts }) {
@@ -122,26 +118,9 @@ export default function Home({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const postsDirectory = path.join(process.cwd(), 'src/posts');
-  const files = fs.readdirSync(postsDirectory);
-
-  const internalPosts = files.map(filename => {
-    const markdownWithMeta = fs.readFileSync(path.join(postsDirectory, filename), 'utf-8')
-    const { data: meta } = matter(markdownWithMeta)
-    return {
-      meta,
-      slug: filename.split('.')[0]
-    }
-  })
-
-  const posts = [
-    ...internalPosts,
-    ...externalPosts,
-  ].sort((a, b) => DateTime.fromISO(a.meta.date).toMillis() - DateTime.fromISO(b.meta.date).toMillis()).reverse();
-
   return {
     props: {
-      posts,
+      posts
     }
   }
 }

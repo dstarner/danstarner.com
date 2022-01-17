@@ -1,7 +1,6 @@
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button';
-import { grey } from '@mui/material/colors';
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
 import Container from '@mui/material/Container'

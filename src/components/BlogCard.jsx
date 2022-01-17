@@ -17,21 +17,20 @@ const extLinkName = {
 
 
 export default function BlogCard({ post, slug }) {
-  const href = slug.startsWith('/') ? `/posts/${slug}` : slug;
   return (
-    <Card>
+    <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
       <CardMedia
         component="img"
         height="160"
         image={post.coverSrc || '/img/default-blog-image.webp'}
         alt={post.title}
       />
-      <CardContent>
-        <Link gutterBottom href={href} underline="hover" color="inherit" variant="h5">
+      <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+        <Link gutterBottom href={slug} underline="hover" color="inherit" variant="h5">
           {post.title}
         </Link>
-        <Typography variant="body2" color="text.secondary">
-          {post.description}
+        <Typography variant="body2" color="text.secondary" sx={{ flexGrow: 1 }}>
+          {post.description || "There is no description, so I guess you will just have to trust it's a good one!"}
         </Typography>
         <Box mt={1}>
             {post.tags.map(tag => (

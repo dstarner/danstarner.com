@@ -10,6 +10,7 @@ views = "python ./fetch_posts.py"
 beautifulsoup4 = "*"
 feedparser = "*"
 requests = "*"
+python-frontmatter = "*"
 
 [dev-packages]
 
