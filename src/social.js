@@ -1,6 +1,14 @@
 import { faDev, faGithub, faLinkedin, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import ArticleIcon from '@mui/icons-material/Article';
 
-export const socialLinks = [{
+export const socialLinks = [
+    {
+        icon: <ArticleIcon />,
+        title: 'Resume',
+        href: '/Dan_Starner_Resume_Fall_2021.pdf',
+        username: 'View Resume',
+    },
+    {
         icon: faDev,
         title: 'Dev Profile',
         href: 'https://dev.to/dan_starner',

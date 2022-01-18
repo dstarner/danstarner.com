@@ -14,10 +14,12 @@ import Tooltip from '@mui/material/Tooltip'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import Head from 'next/head'
+import React from 'react';
 import BlogList from 'src/components/BlogList'
 import Footer from 'src/components/Footer';
 import { socialLinks } from 'src/social';
 import posts from 'src/posts';
+import icon from 'refractor/lang/icon';
 
 
 export default function Home({ posts }) {
@@ -61,16 +63,16 @@ export default function Home({ posts }) {
             </Typography>
             <Box my={1} sx={{ display: 'flex', justifyContent: "center" }}>
               <Button
-                component='a' href='https://buttondown.email/dan_starner'
-                startIcon={<MailIcon />} variant="outlined" sx={{ mr: 1 }}
+                component='a' size="small" href='https://buttondown.email/dan_starner'
+                variant="outlined" sx={{ mr: 1 }} startIcon={<MailIcon />}
               >
-                NEWSLETTER
+                SUBSCRIBE
               </Button>
               <Button
-                component='a' href='/Dan_Starner_Resume_Fall_2021.pdf'
-                startIcon={<ArticleIcon />} variant="contained"
+                component='a' size="small" href='https://buttondown.email/dan_starner/archive'
+                startIcon={<ArticleIcon />} variant="contained" sx={{ mr: 1 }}
               >
-                RESUME
+                NEWSLETTER
               </Button>
             </Box>
           </Grid>
@@ -82,7 +84,10 @@ export default function Home({ posts }) {
                   '&:last-child': { borderBottom: 0 }
                 }}>
                   <ListItemIcon sx={{ minWidth: 30, maxWidth: "1em" }}>
-                    <FontAwesomeIcon size='sm' style={{ maxWidth: 30 }} icon={link.icon} />
+                    {React.isValidElement(link.icon) ? React.cloneElement(link.icon, { fontSize: '20px', sx: { marginLeft: -.1 } }) : (
+                      <FontAwesomeIcon size='sm' style={{ maxWidth: 30 }} icon={link.icon} />
+                    )}
+                    
                   </ListItemIcon>
                   <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'space-between' }}>
                     <Typography sx={{ fontWeight: 500 }}>{link.title}</Typography>

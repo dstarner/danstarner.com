@@ -4,6 +4,7 @@ import IconButton from '@mui/material/IconButton'
 import Link from '@mui/material/Link'
 import Tooltip from '@mui/material/Tooltip'
 import Typography from '@mui/material/Typography';
+import React from 'react';
 
 
 function Footer({ links }) {
@@ -19,7 +20,9 @@ function Footer({ links }) {
                 {links.map((link, idx) => (
                     <Tooltip title={link.title} key={idx}>
                         <IconButton component='a' href={link.href} sx={{ mr: .5 }}>
-                            <FontAwesomeIcon icon={link.icon} />
+                            {React.isValidElement(link.icon) ? link.icon : (
+                                <FontAwesomeIcon icon={link.icon} />
+                            )}
                         </IconButton>
                     </Tooltip>
                 ))}
