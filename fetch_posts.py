@@ -1,4 +1,4 @@
-from threading import local
+from collections import Counter
 from bs4 import BeautifulSoup
 from datetime import datetime
 from dataclasses import dataclass, asdict
@@ -159,6 +159,13 @@ def get_posts():
     )
 
 posts = get_posts()
+
+tag_counter = Counter()
+for post in posts:
+    tag_counter.update(post['meta']['tags'])
+
+import pprint
+pprint.pprint(tag_counter.most_common())
 
 def set_default(obj):
     if isinstance(obj, set):

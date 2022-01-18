@@ -64,13 +64,13 @@ export default function Home({ posts }) {
                 component='a' href='https://buttondown.email/dan_starner'
                 startIcon={<MailIcon />} variant="outlined" sx={{ mr: 1 }}
               >
-                Subscribe
+                NEWSLETTER
               </Button>
               <Button
                 component='a' href='/Dan_Starner_Resume_Fall_2021.pdf'
                 startIcon={<ArticleIcon />} variant="contained"
               >
-                Resume
+                RESUME
               </Button>
             </Box>
           </Grid>

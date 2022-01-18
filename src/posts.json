@@ -6,9 +6,9 @@
       "date": "2022-01-13",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--hwBjyf2D--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m05f69wgl13ftj6wx8kq.jpg",
       "tags": [
-        "webdev",
         "heroku",
         "aws",
+        "webdev",
         "django"
       ],
       "extLinks": {
@@ -24,8 +24,8 @@
       "date": "2022-01-05",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--6t0Mq8Mq--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e3ipx2a26f3mc132vq2r.jpg",
       "tags": [
-        "javascript",
         "tutorial",
+        "javascript",
         "nextjs",
         "react"
       ],
@@ -58,10 +58,10 @@
       "date": "2021-10-17",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--GZ1OIFs8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1676r6bky4it5fxdll6.png",
       "tags": [
-        "productivity",
         "python",
-        "programming",
-        "django"
+        "productivity",
+        "django",
+        "programming"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/introspecting-python-parameter-values-via-argument-binding-1cok"
@@ -76,8 +76,8 @@
       "date": "2021-09-09",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--ZBO_L_T8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ws2ypmvwtktvmxmw3w98.png",
       "tags": [
-        "productivity",
         "codequality",
+        "productivity",
         "development",
         "ux"
       ],
@@ -143,9 +143,9 @@
       "date": "2020-03-05",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2iTiDSCM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/e3njyysxdiv6f0h92ete.png",
       "tags": [
-        "tools",
         "productivity",
-        "discuss"
+        "discuss",
+        "tools"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/what-tool-can-you-never-remember-or-get-good-at-391j"
@@ -160,10 +160,10 @@
       "date": "2020-02-26",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--REUYplBT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/vyspgm5pv8oyj2hr5gbr.jpg",
       "tags": [
-        "productivity",
-        "gratitude",
         "codequality",
-        "thoughts"
+        "productivity",
+        "thoughts",
+        "gratitude"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/the-myth-of-sisyphus-failure-the-meaning-of-imperfect-code-25e3"
@@ -178,9 +178,9 @@
       "date": "2019-04-27",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
-        "hobbies",
         "frc",
-        "robotics"
+        "robotics",
+        "hobbies"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/time-to-show-off-the-robot-30dp"
@@ -195,10 +195,10 @@
       "date": "2018-12-27",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--sGq82cxF--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/oewtzjztvw1vyljpvdqc.png",
       "tags": [
-        "productivity",
         "beginners",
         "discuss",
-        "career"
+        "career",
+        "productivity"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/even-the-big-ones-mess-up-51dp"
@@ -213,9 +213,9 @@
       "date": "2018-12-12",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--f7U6lYrt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/cz004mps4qgzwrfeurmk.jpg",
       "tags": [
-        "javascript",
         "python",
         "webdev",
+        "javascript",
         "react"
       ],
       "extLinks": {
@@ -231,10 +231,10 @@
       "date": "2018-11-29",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
-        "shell",
-        "terminal",
         "bash",
-        "discuss"
+        "discuss",
+        "terminal",
+        "shell"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/whats-your-shell-of-choice-3phm"
@@ -249,10 +249,10 @@
       "date": "2018-10-30",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
-        "help",
-        "opinion",
         "discuss",
-        "eli5"
+        "help",
+        "eli5",
+        "opinion"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/is-redux-needed-after-hooks-jcf"
@@ -267,8 +267,8 @@
       "date": "2018-10-23",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--LVLeubPC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/3o5q6ab36178jyzkv94i.jpg",
       "tags": [
-        "productivity",
         "design",
+        "productivity",
         "advice"
       ],
       "extLinks": {
@@ -284,8 +284,8 @@
       "date": "2018-10-22",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--qlQupJA8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/jbi5ir417f6ozrhd1tch.png",
       "tags": [
-        "resume",
         "productivity",
+        "resume",
         "writing"
       ],
       "extLinks": {
@@ -302,9 +302,9 @@
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--aeFEEipZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1539193143244-c83d9436d633",
       "tags": [
         "productivity",
+        "mindset",
         "social",
-        "language",
-        "mindset"
+        "language"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/avoid-using-trivializing-words-45"
@@ -320,8 +320,8 @@
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
         "activity",
-        "nontech",
         "discuss",
+        "nontech",
         "hobby"
       ],
       "extLinks": {
@@ -337,8 +337,8 @@
       "date": "2018-08-24",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xyhGisFa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1497409988347-cbfaac2f0b12%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D024a5789d93faead2ece7533c7fa69b5",
       "tags": [
-        "learning",
         "internship",
+        "learning",
         "interviewing"
       ],
       "extLinks": {
@@ -370,10 +370,10 @@
       "date": "2018-08-18",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--pSUXFQLk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1515879218367-8466d910aaa4%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D8bafd14605a87addc5db927cf3dc0587",
       "tags": [
-        "tutorial",
         "python",
         "beginners",
-        "learning"
+        "learning",
+        "tutorial"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/using-pythons-type-annotations-4cfe"
@@ -388,9 +388,9 @@
       "date": "2018-03-27",
       "coverSrc": "https://miro.medium.com/max/1400/1*aE8oLp9EArk2natt7gZJmg.jpeg",
       "tags": [
-        "personal-growth",
         "professional-development",
-        "imposter-syndrome"
+        "imposter-syndrome",
+        "personal-growth"
       ],
       "extLinks": {
         "medium": "https://medium.com/@dstarner/battling-imposter-syndrome-4650a73776cb"
@@ -405,10 +405,10 @@
       "date": "2018-03-13",
       "coverSrc": "https://miro.medium.com/max/1400/1*QhNOe6vdMkJWQ4J57DLPkA.jpeg",
       "tags": [
+        "joy",
         "challenge",
         "life",
         "personal-growth",
-        "joy",
         "life-lessons"
       ],
       "extLinks": {
@@ -424,8 +424,8 @@
       "date": "2017-12-30",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
-        "blogging",
         "imposter-syndrome",
+        "blogging",
         "communication"
       ],
       "extLinks": {
