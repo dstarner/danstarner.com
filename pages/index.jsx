@@ -13,7 +13,6 @@ import ListItemIcon from '@mui/material/ListItemIcon'
 import Tooltip from '@mui/material/Tooltip'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
-import { makeStyles } from '@mui/styles';
 import Head from 'next/head'
 import BlogList from 'src/components/BlogList'
 import Footer from 'src/components/Footer';
@@ -21,22 +20,7 @@ import { socialLinks } from 'src/social';
 import posts from 'src/posts';
 
 
-const useStyles = makeStyles(theme => ({
-  title: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: 'flex-end',
-    flexDirection: 'row',
-    [theme.breakpoints.only('xs')]: {
-      alignItems: 'center',
-      flexDirection: 'column',
-    }
-  }
-}));
-
-
 export default function Home({ posts }) {
-  const classes = useStyles();
 
   return (
     <Container maxWidth="md">
@@ -46,7 +30,7 @@ export default function Home({ posts }) {
       </Head>
 
       <Box id="header" mt={10}>
-        <Box id="title" className={classes.title}>
+        <Box id="title">
           <Avatar src='/img/profile.webp' alt='Dan Starner' sx={{ width: 150, height: 150, mr: 2, border: 2, borderColor: 'primary.main' }}>DS</Avatar>
           <Typography variant='h1' textAlign='center'>
             Hi, I&apos;m <Typography component='span' variant='inherit' color='primary'>Dan</Typography>

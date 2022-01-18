@@ -1,0 +1,13 @@
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    #title {
+        align-items: center;
+        flex-direction: column;
+    }
+}
