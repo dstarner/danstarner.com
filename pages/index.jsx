@@ -97,8 +97,8 @@ export default function Home({ posts }) {
                   py: 1, borderBottom: 1, borderBottomColor: 'common.black',
                   '&:last-child': { borderBottom: 0 }
                 }}>
-                  <ListItemIcon sx={{ minWidth: 30 }}>
-                    <FontAwesomeIcon size='sm' icon={link.icon} />
+                  <ListItemIcon sx={{ minWidth: 30, maxWidth: "1em" }}>
+                    <FontAwesomeIcon size='sm' style={{ maxWidth: 30 }} icon={link.icon} />
                   </ListItemIcon>
                   <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'space-between' }}>
                     <Typography sx={{ fontWeight: 500 }}>{link.title}</Typography>
