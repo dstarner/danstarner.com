@@ -7,6 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
+import { DateTime } from 'luxon';
 
 
 const extLinkName = {
@@ -18,13 +19,18 @@ const extLinkName = {
 
 export default function BlogCard({ post, slug }) {
   return (
-    <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <CardMedia
         component="img"
         height="160"
         image={post.coverSrc || '/img/default-blog-image.webp'}
         alt={post.title}
       />
+      <Box sx={{ background: '#FFF', position: 'absolute', borderBottomRightRadius: 5, py: .3, px: 1 }}>
+        <Typography variant='caption'>
+          {DateTime.fromISO(post.date).toLocaleString({ month: 'long', day: 'numeric', year: 'numeric' })}
+        </Typography>
+      </Box>
       <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
         <Link gutterBottom href={slug} underline="hover" color="inherit" variant="h5">
           {post.title}
