@@ -64,7 +64,7 @@ class Article:
 
 def get_local_posts():
     post_directory = 'src/posts'
-    post_paths = [f for f in os.listdir(post_directory) if os.path.isfile(os.path.join(post_directory, f) and f.endswith('.mdx'))]
+    post_paths = [f for f in os.listdir(post_directory) if os.path.isfile(os.path.join(post_directory, f)) and f.endswith('.mdx')]
     
     def post_to_article(post_file) -> Article:
         post_path = os.path.join(post_directory, post_file)
@@ -126,6 +126,7 @@ def get_medium_articles() -> List[Article]:
 
 def get_posts():
     local_posts = get_local_posts()
+
     dev_posts = get_dev_to_articles()
     medium_posts = get_medium_articles()
 
