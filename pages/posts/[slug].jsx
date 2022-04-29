@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography'
 import fs from 'fs'
 import matter from 'gray-matter'
 import { DateTime } from 'luxon';
-import { Tweet, Gist, Instagram, Strava, Twitch } from 'mdx-embed';
+import { Tweet, Gist, Instagram, Strava, Twitch, YouTube } from 'mdx-embed';
 import Head from 'next/head'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
@@ -84,6 +84,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         SyntaxHighlighter,
         Tweet,
         Twitch,
+        YouTube,
       }} />
       <Footer links={socialLinks} />
     </Container>
