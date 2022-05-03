@@ -1,23 +1,6 @@
 [
   {
     "meta": {
-      "title": "Reflections on Life in New York City",
-      "description": [
-        "As my time in NYC is dwindling down, I reflect on my personal growth over the years."
-      ],
-      "date": "2022-02-23",
-      "coverSrc": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg&w=1920",
-      "tags": [
-        "career",
-        "new-york-city",
-        "personal-growth"
-      ],
-      "extLinks": {}
-    },
-    "slug": "/posts/new-york-lessons"
-  },
-  {
-    "meta": {
       "title": "Short Reflection on My College Experiences",
       "description": [
         "I was requested to answer some questions concerning my career & time at UB, so here goes!"
@@ -26,8 +9,8 @@
       "coverSrc": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg&w=1920",
       "tags": [
         "beginners",
-        "career",
-        "personal-growth"
+        "personal-growth",
+        "career"
       ],
       "extLinks": {}
     },
@@ -40,9 +23,9 @@
       "date": "2022-01-13",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--hwBjyf2D--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m05f69wgl13ftj6wx8kq.jpg",
       "tags": [
-        "heroku",
         "webdev",
         "django",
+        "heroku",
         "aws"
       ],
       "extLinks": {
@@ -59,9 +42,9 @@
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--6t0Mq8Mq--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e3ipx2a26f3mc132vq2r.jpg",
       "tags": [
         "javascript",
-        "react",
         "tutorial",
-        "nextjs"
+        "nextjs",
+        "react"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/building-dynamic-breadcrumbs-in-nextjs-17oa"
@@ -92,9 +75,9 @@
       "date": "2021-10-17",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--GZ1OIFs8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1676r6bky4it5fxdll6.png",
       "tags": [
+        "programming",
         "python",
         "django",
-        "programming",
         "productivity"
       ],
       "extLinks": {
@@ -110,9 +93,9 @@
       "date": "2021-09-09",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--ZBO_L_T8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ws2ypmvwtktvmxmw3w98.png",
       "tags": [
+        "productivity",
         "codequality",
         "development",
-        "productivity",
         "ux"
       ],
       "extLinks": {
@@ -128,9 +111,9 @@
       "date": "2020-08-30",
       "coverSrc": "https://miro.medium.com/max/1400/1*FECwS2njRAf5qwRKXDkDig.jpeg",
       "tags": [
+        "robotics",
         "new-york-city",
-        "frc",
-        "robotics"
+        "frc"
       ],
       "extLinks": {
         "medium": "https://medium.com/@dstarner/first-gala-2019-b02f05e4ed5a"
@@ -162,8 +145,8 @@
       "date": "2020-08-05",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2hR1J9LS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kztm003o38g4q5x7vm4l.png",
       "tags": [
-        "showdev",
-        "github"
+        "github",
+        "showdev"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/updating-my-github-profile-readme-2mch"
@@ -178,8 +161,8 @@
       "date": "2020-03-05",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2iTiDSCM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/e3njyysxdiv6f0h92ete.png",
       "tags": [
-        "productivity",
         "tools",
+        "productivity",
         "discuss"
       ],
       "extLinks": {
@@ -195,10 +178,10 @@
       "date": "2020-02-26",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--REUYplBT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/vyspgm5pv8oyj2hr5gbr.jpg",
       "tags": [
-        "codequality",
+        "thoughts",
         "gratitude",
         "productivity",
-        "thoughts"
+        "codequality"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/the-myth-of-sisyphus-failure-the-meaning-of-imperfect-code-25e3"
@@ -213,9 +196,9 @@
       "date": "2019-04-27",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
+        "robotics",
         "hobbies",
-        "frc",
-        "robotics"
+        "frc"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/time-to-show-off-the-robot-30dp"
@@ -249,9 +232,9 @@
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--f7U6lYrt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/cz004mps4qgzwrfeurmk.jpg",
       "tags": [
         "javascript",
+        "react",
         "python",
-        "webdev",
-        "react"
+        "webdev"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/lessons-learned-python-to-javascript-4lae"
@@ -267,9 +250,9 @@
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
         "terminal",
-        "bash",
+        "discuss",
         "shell",
-        "discuss"
+        "bash"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/whats-your-shell-of-choice-3phm"
@@ -284,10 +267,10 @@
       "date": "2018-10-30",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
-        "opinion",
         "help",
         "eli5",
-        "discuss"
+        "discuss",
+        "opinion"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/is-redux-needed-after-hooks-jcf"
@@ -302,9 +285,9 @@
       "date": "2018-10-23",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--LVLeubPC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/3o5q6ab36178jyzkv94i.jpg",
       "tags": [
+        "advice",
         "design",
-        "productivity",
-        "advice"
+        "productivity"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/dont-be-a-shotgun-coder-2hfp"
@@ -319,9 +302,9 @@
       "date": "2018-10-22",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--qlQupJA8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/jbi5ir417f6ozrhd1tch.png",
       "tags": [
-        "writing",
         "resume",
-        "productivity"
+        "productivity",
+        "writing"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/evolution-of-my-personal-site-1849"
@@ -336,10 +319,10 @@
       "date": "2018-10-11",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--aeFEEipZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1539193143244-c83d9436d633",
       "tags": [
-        "mindset",
+        "language",
         "productivity",
         "social",
-        "language"
+        "mindset"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/avoid-using-trivializing-words-45"
@@ -354,9 +337,9 @@
       "date": "2018-10-02",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
+        "activity",
         "nontech",
         "hobby",
-        "activity",
         "discuss"
       ],
       "extLinks": {
@@ -372,9 +355,9 @@
       "date": "2018-08-24",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xyhGisFa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1497409988347-cbfaac2f0b12%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D024a5789d93faead2ece7533c7fa69b5",
       "tags": [
-        "learning",
+        "internship",
         "interviewing",
-        "internship"
+        "learning"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/steps-towards-problem-solving-in-a-technical-interview-41pb"
@@ -405,10 +388,10 @@
       "date": "2018-08-18",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--pSUXFQLk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1515879218367-8466d910aaa4%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D8bafd14605a87addc5db927cf3dc0587",
       "tags": [
-        "learning",
-        "beginners",
+        "tutorial",
         "python",
-        "tutorial"
+        "beginners",
+        "learning"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/using-pythons-type-annotations-4cfe"
@@ -423,9 +406,9 @@
       "date": "2018-03-27",
       "coverSrc": "https://miro.medium.com/max/1400/1*aE8oLp9EArk2natt7gZJmg.jpeg",
       "tags": [
+        "personal-growth",
         "imposter-syndrome",
-        "professional-development",
-        "personal-growth"
+        "professional-development"
       ],
       "extLinks": {
         "medium": "https://medium.com/@dstarner/battling-imposter-syndrome-4650a73776cb"
@@ -440,10 +423,10 @@
       "date": "2018-03-13",
       "coverSrc": "https://miro.medium.com/max/1400/1*QhNOe6vdMkJWQ4J57DLPkA.jpeg",
       "tags": [
-        "personal-growth",
         "joy",
-        "life",
         "life-lessons",
+        "life",
+        "personal-growth",
         "challenge"
       ],
       "extLinks": {
@@ -459,9 +442,9 @@
       "date": "2017-12-30",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
+        "blogging",
         "imposter-syndrome",
-        "communication",
-        "blogging"
+        "communication"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/why-do-you-need-a-blog-4bc0",
