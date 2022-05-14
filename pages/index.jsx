@@ -63,16 +63,16 @@ export default function Home({ posts }) {
             </Typography>
             <Box my={1} sx={{ display: 'flex', justifyContent: "center" }}>
               <Button
-                component='a' size="small" href='https://buttondown.email/dan_starner'
+                component='a' size="small" href='https://newsletter.danstarner.com'
                 variant="outlined" sx={{ mr: 1 }} startIcon={<MailIcon />}
               >
                 SUBSCRIBE
               </Button>
               <Button
-                component='a' size="small" href='https://buttondown.email/dan_starner/archive'
-                startIcon={<ArticleIcon />} variant="contained" sx={{ mr: 1 }}
+                component='a' size="small" href='https://newsletter.danstarner.com/archive'
+                startIcon={<ArticleIcon />} variant="contained"
               >
-                NEWSLETTER
+                READ NEWSLETTER
               </Button>
             </Box>
           </Grid>
