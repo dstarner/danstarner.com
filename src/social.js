@@ -4,6 +4,7 @@ import {
   faLinkedin,
   faStackOverflow,
   faTwitter,
+  faTwitch,
 } from "@fortawesome/free-brands-svg-icons";
 import ArticleIcon from "@mui/icons-material/Article";
 
@@ -37,6 +38,12 @@ export const socialLinks = [
     title: "Stack Overflow",
     href: "https://stackoverflow.com/users/17758344/dan-starner",
     username: "@dan_starner",
+  },
+  {
+    icon: faTwitch,
+    title: "Twitch",
+    href: "https://twitch.tv/standarner/",
+    username: "standarner",
   },
   {
     icon: faTwitter,
