@@ -60,8 +60,12 @@ export default function Home({ posts }) {
               having some fun and learning a thing or two along the way. I&apos;m a software engineer by
               profession, but my interests and goals are much larger than just code. I want to make
               a positive impact in the world, and code is just one avenue that I use to achieve that.
+              Outside of work, I enjoy hiking 🥾,&nbsp;
+              <Typography component='a' color='primary' href="https://www.strava.com/athletes/41276691">road cycling 🚴‍♂️</Typography>
+              , and&nbsp;
+              <Typography component='a' color='primary' href="https://iracingruck.us/">managing an iRacing league 🏎️ 🏁</Typography> .
             </Typography>
-            <Box my={1} sx={{ display: 'flex', justifyContent: "center" }}>
+            <Box my={2} sx={{ display: 'flex', justifyContent: "center" }}>
               <Button
                 component='a' size="small" href='https://newsletter.danstarner.com'
                 variant="outlined" sx={{ mr: 1 }} startIcon={<MailIcon />}
