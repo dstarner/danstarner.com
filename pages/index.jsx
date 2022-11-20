@@ -19,7 +19,6 @@ import BlogList from 'src/components/BlogList'
 import Footer from 'src/components/Footer';
 import { socialLinks } from 'src/social';
 import posts from 'src/posts';
-import icon from 'refractor/lang/icon';
 
 
 export default function Home({ posts }) {

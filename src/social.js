@@ -5,6 +5,7 @@ import {
   faStackOverflow,
   faTwitter,
   faTwitch,
+  faMastodon,
 } from "@fortawesome/free-brands-svg-icons";
 import ArticleIcon from "@mui/icons-material/Article";
 
@@ -34,6 +35,12 @@ export const socialLinks = [
     username: "danstarner",
   },
   {
+    icon: faMastodon,
+    title: "Mastodon",
+    href: "https://hachyderm.io/web/@dstar",
+    username: "@dstar@hachyderm.io",
+  },
+  {
     icon: faStackOverflow,
     title: "Stack Overflow",
     href: "https://stackoverflow.com/users/17758344/dan-starner",
@@ -44,11 +51,5 @@ export const socialLinks = [
     title: "Twitch",
     href: "https://twitch.tv/standarner/",
     username: "standarner",
-  },
-  {
-    icon: faTwitter,
-    title: "Twitter",
-    href: "https://twitter.com/dan_starner/",
-    username: "@dan_starner",
   },
 ];
