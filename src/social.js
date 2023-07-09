@@ -35,12 +35,6 @@ export const socialLinks = [
     username: "danstarner",
   },
   {
-    icon: faMastodon,
-    title: "Mastodon",
-    href: "https://hachyderm.io/web/@dstar",
-    username: "@dstar@hachyderm.io",
-  },
-  {
     icon: faStackOverflow,
     title: "Stack Overflow",
     href: "https://stackoverflow.com/users/17758344/dan-starner",
