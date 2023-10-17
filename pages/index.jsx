@@ -62,7 +62,7 @@ export default function Home({ posts }) {
               Outside of work, I enjoy hiking 🥾,&nbsp;
               <Typography component='a' color='primary' href="https://www.strava.com/athletes/41276691">road cycling 🚴‍♂️</Typography>
               , and&nbsp;
-              <Typography component='a' color='primary' href="https://iracingruck.us/">managing an iRacing league 🏎️ 🏁</Typography> .
+              <Typography component='a' color='primary' href="https://alumiboti5590.com/">mentoring FIRST Robotics 🤖</Typography> .
             </Typography>
             <Box my={2} sx={{ display: 'flex', justifyContent: "center" }}>
               <Button
