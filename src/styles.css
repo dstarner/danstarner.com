@@ -15,3 +15,8 @@
 .strava-mdx-embed {
     margin: 0 auto;
 }
+
+blockquote {
+    border-left: 3px solid lightgrey;
+    padding-left: 1em;
+}
