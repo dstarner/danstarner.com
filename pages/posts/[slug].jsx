@@ -78,6 +78,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         hr: () => <Divider sx={{ width: '50%', display: "block", margin: "24px auto" }} />,
         // code: (props) => <Typography variant='overline' component='code' {...props} />,
         pre: (props) => <SyntaxHighlighter>{props.children.props.children.trim()}</SyntaxHighlighter>,
+        img: (props) => <img alt="no alt" {...props} style={{maxWidth: "100%", ...(props.style || {})}} />,
         // Custom components
         Gist,
         Instagram,
