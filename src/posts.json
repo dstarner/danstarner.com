@@ -1,14 +1,32 @@
 [
   {
     "meta": {
+      "title": "New York Empire & Canalway Trail - Part 1 - Buffalo to Syracuse",
+      "description": [
+        "My friend Aasif and I recently completed 40% of the Empire Trail across New York State."
+      ],
+      "date": "2024-06-11",
+      "coverSrc": "/img/empire-trail.jpg",
+      "tags": [
+        "adventures",
+        "biking"
+      ],
+      "extLinks": {}
+    },
+    "slug": "/posts/empire-trail-pt1"
+  },
+  {
+    "meta": {
       "title": "Heroku : Getting Started with Heroku in 30 mins!",
-      "description": "I was fortunate to speak about Heroku on GitHub Education's Twitch account!",
+      "description": [
+        "I was fortunate to speak about Heroku on GitHub Education's Twitch account!"
+      ],
       "date": "2023-01-29",
       "coverSrc": "/img/heroku-github-twitch-edu.png",
       "tags": [
+        "webdev",
         "heroku",
-        "twitch",
-        "webdev"
+        "twitch"
       ],
       "extLinks": {}
     },
@@ -19,12 +37,12 @@
       "title": "Serve Static Internal Documentation Behind OAuth Authentication",
       "description": "Background   Engineering teams frequently have centralized documentation websites that tie...",
       "date": "2022-07-02",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--49kL_Hg9--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/69li7wxvtee03r93nvxr.png",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F69li7wxvtee03r93nvxr.png",
       "tags": [
-        "docusaurus",
         "oauth",
-        "tutorial",
-        "heroku"
+        "heroku",
+        "docusaurus",
+        "tutorial"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/easily-serve-internal-documentation-behind-oauth-authentication-322k"
@@ -41,9 +59,9 @@
       "date": "2022-01-21",
       "coverSrc": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg&w=1920",
       "tags": [
-        "beginners",
+        "personal-growth",
         "career",
-        "personal-growth"
+        "beginners"
       ],
       "extLinks": {}
     },
@@ -54,12 +72,12 @@
       "title": "Managing Django Media & Static Files on Heroku with Bucketeer",
       "description": "This article will walk through how we correctly persist static &amp; media files for a Django...",
       "date": "2022-01-13",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--hwBjyf2D--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m05f69wgl13ftj6wx8kq.jpg",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm05f69wgl13ftj6wx8kq.jpg",
       "tags": [
-        "django",
-        "aws",
         "webdev",
-        "heroku"
+        "heroku",
+        "aws",
+        "django"
       ],
       "extLinks": {
         "dev": "https://dev.to/heroku/properly-managing-django-media-static-files-on-heroku-o2l"
@@ -72,12 +90,12 @@
       "title": "Building Dynamic Breadcrumbs in NextJS",
       "description": "Breadcrumbs are a website navigation tool that allows users to see their current page's \"stack\" of...",
       "date": "2022-01-05",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--6t0Mq8Mq--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e3ipx2a26f3mc132vq2r.jpg",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe3ipx2a26f3mc132vq2r.jpg",
       "tags": [
+        "javascript",
         "react",
-        "nextjs",
         "tutorial",
-        "javascript"
+        "nextjs"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/building-dynamic-breadcrumbs-in-nextjs-17oa"
@@ -90,10 +108,10 @@
       "title": "Switching Jobs in Tech Industry: 6 Key Lessons I've Learned",
       "description": "Switching jobs in the tech industry can be an interesting adventure, especially if you've had years...",
       "date": "2021-11-04",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--OxVN2Mau--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cldj7rruqsibvkjrumap.jpg",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcldj7rruqsibvkjrumap.jpg",
       "tags": [
-        "productivity",
-        "career"
+        "career",
+        "productivity"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/learned-lessons-of-switching-jobs-552g"
@@ -106,12 +124,12 @@
       "title": "Introspecting Python Parameter Values via Argument Binding",
       "description": "Sometimes it is important to map function arguments with their parameter values. Python offers basic...",
       "date": "2021-10-17",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--GZ1OIFs8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1676r6bky4it5fxdll6.png",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy1676r6bky4it5fxdll6.png",
       "tags": [
-        "python",
-        "django",
+        "programming",
         "productivity",
-        "programming"
+        "django",
+        "python"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/introspecting-python-parameter-values-via-argument-binding-1cok"
@@ -124,12 +142,12 @@
       "title": "Maintaining Quality Documentation",
       "description": "Communication is difficult. As remote work becomes more of a thing, as teams work across six+...",
       "date": "2021-09-09",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--ZBO_L_T8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ws2ypmvwtktvmxmw3w98.png",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fws2ypmvwtktvmxmw3w98.png",
       "tags": [
+        "codequality",
         "productivity",
         "ux",
-        "development",
-        "codequality"
+        "development"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/keeping-documentation-debt-at-bay-clients-happy-53o"
@@ -139,47 +157,13 @@
   },
   {
     "meta": {
-      "title": "FIRST Gala 2019",
-      "description": "",
-      "date": "2020-08-30",
-      "coverSrc": "https://miro.medium.com/max/1400/1*FECwS2njRAf5qwRKXDkDig.jpeg",
-      "tags": [
-        "frc",
-        "robotics",
-        "new-york-city"
-      ],
-      "extLinks": {
-        "medium": "https://medium.com/@dstarner/first-gala-2019-b02f05e4ed5a"
-      }
-    },
-    "slug": "https://medium.com/@dstarner/first-gala-2019-b02f05e4ed5a"
-  },
-  {
-    "meta": {
-      "title": "Exploring Snug Harbor",
-      "description": "",
-      "date": "2020-08-30",
-      "coverSrc": "https://miro.medium.com/max/4000/1*m60t2-xheDbpcutjclU4lg.jpeg",
-      "tags": [
-        "travel",
-        "new-york-city",
-        "photography"
-      ],
-      "extLinks": {
-        "medium": "https://medium.com/@dstarner/exploring-snug-harbor-60f49bc40786"
-      }
-    },
-    "slug": "https://medium.com/@dstarner/exploring-snug-harbor-60f49bc40786"
-  },
-  {
-    "meta": {
       "title": "Updating My GitHub Profile README",
       "description": "A few weeks ago, GitHub released full support for adding READMEs to profile pages. This allows users...",
       "date": "2020-08-05",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2hR1J9LS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kztm003o38g4q5x7vm4l.png",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fkztm003o38g4q5x7vm4l.png",
       "tags": [
-        "showdev",
-        "github"
+        "github",
+        "showdev"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/updating-my-github-profile-readme-2mch"
@@ -192,11 +176,11 @@
       "title": "What Tool Can You Never Remember or Get Good At?",
       "description": "What program, application, or shortcut have you never been able to get behind, even though most peopl...",
       "date": "2020-03-05",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--2iTiDSCM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/e3njyysxdiv6f0h92ete.png",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fe3njyysxdiv6f0h92ete.png",
       "tags": [
+        "tools",
         "productivity",
-        "discuss",
-        "tools"
+        "discuss"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/what-tool-can-you-never-remember-or-get-good-at-391j"
@@ -209,12 +193,12 @@
       "title": "The Myth of Sisyphus, Failure, & the Meaning of Imperfect Code",
       "description": "For years as a student and into my first few years as a junior engineer, I felt dirty. Something felt...",
       "date": "2020-02-26",
-      "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--REUYplBT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/vyspgm5pv8oyj2hr5gbr.jpg",
+      "coverSrc": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fvyspgm5pv8oyj2hr5gbr.jpg",
       "tags": [
-        "thoughts",
+        "codequality",
         "productivity",
-        "gratitude",
-        "codequality"
+        "thoughts",
+        "gratitude"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/the-myth-of-sisyphus-failure-the-meaning-of-imperfect-code-25e3"
@@ -230,8 +214,8 @@
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
         "robotics",
-        "frc",
-        "hobbies"
+        "hobbies",
+        "frc"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/time-to-show-off-the-robot-30dp"
@@ -246,10 +230,10 @@
       "date": "2018-12-27",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--sGq82cxF--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/oewtzjztvw1vyljpvdqc.png",
       "tags": [
+        "career",
         "productivity",
-        "beginners",
         "discuss",
-        "career"
+        "beginners"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/even-the-big-ones-mess-up-51dp"
@@ -264,10 +248,10 @@
       "date": "2018-12-12",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--f7U6lYrt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/cz004mps4qgzwrfeurmk.jpg",
       "tags": [
-        "python",
-        "react",
+        "javascript",
         "webdev",
-        "javascript"
+        "react",
+        "python"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/lessons-learned-python-to-javascript-4lae"
@@ -283,8 +267,8 @@
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
         "terminal",
-        "discuss",
         "shell",
+        "discuss",
         "bash"
       ],
       "extLinks": {
@@ -301,8 +285,8 @@
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
         "opinion",
-        "eli5",
         "help",
+        "eli5",
         "discuss"
       ],
       "extLinks": {
@@ -318,9 +302,9 @@
       "date": "2018-10-23",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--LVLeubPC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/3o5q6ab36178jyzkv94i.jpg",
       "tags": [
-        "productivity",
         "design",
-        "advice"
+        "advice",
+        "productivity"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/dont-be-a-shotgun-coder-2hfp"
@@ -335,8 +319,8 @@
       "date": "2018-10-22",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--qlQupJA8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/jbi5ir417f6ozrhd1tch.png",
       "tags": [
-        "productivity",
         "writing",
+        "productivity",
         "resume"
       ],
       "extLinks": {
@@ -352,10 +336,10 @@
       "date": "2018-10-11",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--aeFEEipZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1539193143244-c83d9436d633",
       "tags": [
-        "productivity",
-        "mindset",
+        "language",
         "social",
-        "language"
+        "productivity",
+        "mindset"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/avoid-using-trivializing-words-45"
@@ -372,8 +356,8 @@
       "tags": [
         "hobby",
         "nontech",
-        "activity",
-        "discuss"
+        "discuss",
+        "activity"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/discuss-favorite-non-tech-hobby--activity-31hk"
@@ -389,8 +373,8 @@
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xyhGisFa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1497409988347-cbfaac2f0b12%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D024a5789d93faead2ece7533c7fa69b5",
       "tags": [
         "learning",
-        "interviewing",
-        "internship"
+        "internship",
+        "interviewing"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/steps-towards-problem-solving-in-a-technical-interview-41pb"
@@ -405,8 +389,8 @@
       "date": "2018-08-21",
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--xf-3JiRX--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1496170657/new-york-city-skyline-manhattan-dusk-INTERESTNYC0617.jpg%3Fitok%3DRotKFKUJ",
       "tags": [
-        "discuss",
-        "nyc"
+        "nyc",
+        "discuss"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/discuss-good-nyc-tech-communities-to-join-544d"
@@ -422,9 +406,9 @@
       "coverSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--pSUXFQLk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1515879218367-8466d910aaa4%3Fixlib%3Drb-0.3.5%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjExNzczfQ%26s%3D8bafd14605a87addc5db927cf3dc0587",
       "tags": [
         "learning",
+        "tutorial",
         "python",
-        "beginners",
-        "tutorial"
+        "beginners"
       ],
       "extLinks": {
         "dev": "https://dev.to/dan_starner/using-pythons-type-annotations-4cfe"
@@ -434,54 +418,15 @@
   },
   {
     "meta": {
-      "title": "Battling Imposter Syndrome",
-      "description": "",
-      "date": "2018-03-27",
-      "coverSrc": "https://miro.medium.com/max/1400/1*aE8oLp9EArk2natt7gZJmg.jpeg",
-      "tags": [
-        "professional-development",
-        "personal-growth",
-        "imposter-syndrome"
-      ],
-      "extLinks": {
-        "medium": "https://medium.com/@dstarner/battling-imposter-syndrome-4650a73776cb"
-      }
-    },
-    "slug": "https://medium.com/@dstarner/battling-imposter-syndrome-4650a73776cb"
-  },
-  {
-    "meta": {
-      "title": "A Challenge to Yourself",
-      "description": "",
-      "date": "2018-03-13",
-      "coverSrc": "https://miro.medium.com/max/1400/1*QhNOe6vdMkJWQ4J57DLPkA.jpeg",
-      "tags": [
-        "personal-growth",
-        "life-lessons",
-        "joy",
-        "life",
-        "challenge"
-      ],
-      "extLinks": {
-        "medium": "https://medium.com/@dstarner/a-challenge-to-yourself-2e4b07f9d60a"
-      }
-    },
-    "slug": "https://medium.com/@dstarner/a-challenge-to-yourself-2e4b07f9d60a"
-  },
-  {
-    "meta": {
       "title": "Why Do You Need a Blog?",
       "description": "Why do people write blogs? What's the big deal with them? I answer these questions and more!",
       "date": "2017-12-30",
       "coverSrc": "img/default-blog-image.webp",
       "tags": [
-        "imposter-syndrome",
-        "communication",
         "blogging"
       ],
       "extLinks": {
-        "dev": "https://dev.to/dan_starner/why-do-you-need-a-blog-4bc0",
-        "medium": "https://medium.com/@dstarner/why-do-you-need-a-blog-8d93f94e1e3e"
+        "dev": "https://dev.to/dan_starner/why-do-you-need-a-blog-4bc0"
       }
     },
     "slug": "https://dev.to/dan_starner/why-do-you-need-a-blog-4bc0"

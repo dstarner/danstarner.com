@@ -18,6 +18,9 @@ IMAGE_OVERRIDES = {
 
 API_KEY = os.getenv('DEV_TO_TOKEN')
 
+MAPPING = {
+    'https://medium.com/@dstarner/why-do-you-need-a-blog-8d93f94e1e3e': 'https://medium.com/@dstarner/why-do-you-need-a-blog-8d93f94e1e3e?source=friends_link&sk=0e517e9f1d7d2f847ac75f6af9bc1433',
+}
 
 @dataclass
 class Article:
@@ -93,44 +96,12 @@ def get_dev_to_articles() -> List[Article]:
     return dev_articles
 
 
-def get_medium_articles() -> List[Article]:
-    med_resp = feedparser.parse('https://medium.com/feed/@dstarner')
-    med_articles = [Article(
-        source='medium',
-        title=p['title'],
-        id=p['id'],
-        url=p['link'].split('?')[0],
-        page_views_count='',
-        description='',
-        published=p['published'],
-        tag_list=[t['term'] for t in p['tags']],
-        cover_image=DEFAULT_IMAGE,
-        published_timestamp='',
-        published_dt=datetime.fromtimestamp(mktime(p['published_parsed']))
-    ) for p in med_resp.entries]
-
-    for article in med_articles:
-        if article.url in IMAGE_OVERRIDES:
-            article.cover_image = IMAGE_OVERRIDES[article.url]
-            continue
-        resp = requests.get(article.url)
-        if resp.status_code != 200:
-            print(f'could not load {article.url}')
-            continue
-        soup = BeautifulSoup(resp.text, 'html.parser').find('article')
-        img = soup.find('img', {'role': 'presentation'})
-        if img:
-            article.cover_image = img['src']
-    return med_articles
-
-
 def get_posts():
     local_posts = get_local_posts()
 
     dev_posts = get_dev_to_articles()
-    medium_posts = get_medium_articles()
 
-    post_articles = local_posts + dev_posts + medium_posts
+    post_articles = local_posts + dev_posts
     post_map = {}
 
     for article in post_articles:
