@@ -28,6 +28,29 @@ export default function Home({ posts }) {
       <Head>
         <title>Dan Starner</title>
         <meta name="description" content="My Head is in the Clouds 24/7" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://danstarner.com/" />
+        <meta name="twitter:title" key="twitter:title" content="Dan Starner" />
+        <meta
+          name="twitter:description"
+          key="twitter:description"
+          content="My Head is in the Clouds 24/7"
+        />
+        <meta
+          name="twitter:image"
+          content="https://danstarner.com/img/twitter-card.webp"
+        />
+        <meta name="twitter:creator" content="@dan_starner" />
+        <meta
+          property="og:image"
+          content="https://danstarner.com/img/og-card.webp"
+        />
+        <meta property="og:title" key="og:title" content="Dan Starner" />
+        <meta
+          property="og:description"
+          key="og:description"
+          content="My Head is in the Clouds 24/7"
+        />
       </Head>
 
       <Box id="header" mt={10}>

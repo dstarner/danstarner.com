@@ -25,32 +25,8 @@ export default function MyApp(props) {
         />
         <meta name="author" content="Dan Starner" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://danstarner.com/" />
-        <meta name="twitter:title" key="twitter:title" content="Dan Starner" />
-        <meta
-          name="twitter:description"
-          key="twitter:description"
-          content="My Head is in the Clouds 24/7"
-        />
-        <meta
-          name="twitter:image"
-          content="https://danstarner.com/img/twitter-card.webp"
-        />
-        <meta name="twitter:creator" content="@dan_starner" />
-
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://danstarner.com/img/og-card.webp"
-        />
-        <meta property="og:title" key="og:title" content="Dan Starner" />
-        <meta
-          property="og:description"
-          key="og:description"
-          content="My Head is in the Clouds 24/7"
-        />
         <meta property="og:url" content="https://danstarner.com/" />
       </Head>
       <ThemeProvider theme={theme}>
