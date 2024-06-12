@@ -31,6 +31,8 @@ const extLinkName = {
 
 const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, extLinks={}, }, extLinkMap, mdxSource }) => {
   const dateStr = DateTime.fromISO(date).toLocaleString({ month: 'long', day: 'numeric', year: 'numeric' });
+  const coverImgSrc = coverSrc || '/img/default-blog-image.webp';
+  const ogImageContent = coverImgSrc.startsWith("http") ? coverImgSrc : `https://danstarner.com${coverImgSrc}`
   return (
     <Container maxWidth="md">
       <Head>
@@ -41,10 +43,11 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         <meta name="twitter:description" key="twitter:description" content={description} />
         <meta property="og:title" key="og:title" content={title} />
         <meta property="og:description" key="og:description" content={description} />
+        <meta property="og:image" content={ogImageContent} />
       </Head>
       <Box id="header">
         <CardMedia
-          component="img" image={coverSrc || '/img/default-blog-image.webp'}
+          component="img" image={coverImgSrc}
           alt={title}
           sx={{ borderBottomLeftRadius: 20, borderBottomRightRadius: 20, boxShadow: 3 }}
 

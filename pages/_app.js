@@ -35,7 +35,7 @@ export default function MyApp(props) {
         />
         <meta
           name="twitter:image"
-          content="https://danstarner.com/img/twitter-card.png"
+          content="https://danstarner.com/img/twitter-card.webp"
         />
         <meta name="twitter:creator" content="@dan_starner" />
 
@@ -43,7 +43,7 @@ export default function MyApp(props) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://danstarner.com/img/og-card.png"
+          content="https://danstarner.com/img/og-card.webp"
         />
         <meta property="og:title" key="og:title" content="Dan Starner" />
         <meta
