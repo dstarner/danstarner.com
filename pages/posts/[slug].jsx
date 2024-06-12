@@ -16,6 +16,7 @@ import Head from 'next/head'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import path from 'path'
+import ImageGallery from "react-image-gallery";
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import Footer from 'src/components/Footer';
 import { socialLinks } from 'src/social';
@@ -85,6 +86,7 @@ const PostPage = ({ frontMatter: { title, description, coverSrc, tags, date, ext
         Tweet,
         Twitch,
         YouTube,
+        ImageGallery,
       }} />
       <Footer links={socialLinks} />
     </Container>
