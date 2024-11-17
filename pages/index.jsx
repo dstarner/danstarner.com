@@ -84,6 +84,8 @@ export default function Home({ posts }) {
               a positive impact in the world, and code is just one avenue that I use to achieve that.
               Outside of work, I enjoy hiking 🥾,&nbsp;
               <Typography component='a' color='primary' href="https://www.strava.com/athletes/41276691">road cycling 🚴‍♂️</Typography>
+              ,&nbsp;
+              <Typography component='a' color='primary' href="https://www.strava.com/athletes/41276691">snowboarding 🏂</Typography>
               , and&nbsp;
               <Typography component='a' color='primary' href="https://alumiboti5590.com/">mentoring FIRST Robotics 🤖</Typography> .
             </Typography>

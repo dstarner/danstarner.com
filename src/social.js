@@ -3,9 +3,7 @@ import {
   faGithub,
   faLinkedin,
   faStackOverflow,
-  faTwitter,
-  faTwitch,
-  faMastodon,
+  faBluesky,
 } from "@fortawesome/free-brands-svg-icons";
 import ArticleIcon from "@mui/icons-material/Article";
 
@@ -35,15 +33,15 @@ export const socialLinks = [
     username: "danstarner",
   },
   {
+    icon: faBluesky,
+    title: "BlueSky",
+    href: "https://bsky.app/profile/danstarner.com",
+    username: "@danstarner.com",
+  },
+  {
     icon: faStackOverflow,
     title: "Stack Overflow",
     href: "https://stackoverflow.com/users/17758344/dan-starner",
     username: "@dan_starner",
-  },
-  {
-    icon: faTwitch,
-    title: "Twitch",
-    href: "https://twitch.tv/standarner/",
-    username: "standarner",
   },
 ];
