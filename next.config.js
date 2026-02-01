@@ -15,6 +15,11 @@ module.exports = withMDX({
         destination: "http://give.roswellpark.org/goto/danstarner",
         permanent: true,
       },
+      {
+        source: "/join-me",
+        destination: "https://stripe.com/jobs/listing/backend-api-engineer-privacy-products/7579264",
+        permanent: false,
+      },
     ];
   },
 });
